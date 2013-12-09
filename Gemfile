@@ -11,6 +11,8 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'spork-rails', '4.0.0'
   gem 'childprocess', '0.3.9'
+  gem 'cucumber-rails', '1.4.0', require: false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :test do
