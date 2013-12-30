@@ -65,7 +65,7 @@ describe "Authentication" do
 
                     describe " when signing in again" do
                         before do
-                            delete signout_path
+                            click_link "Sign out"
                             sign_in user
                         end
 
