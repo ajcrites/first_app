@@ -6,7 +6,6 @@ FirstApp::Application.routes.draw do
   match "/signup", to: "users#new", via: "get"
   match "/signin", to: "sessions#new", via: "get"
   match "/signout", to: "sessions#destroy", via: "delete"
-  resources :microposts
 
   resources :users
 
